@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Appointment Scheduling</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<h1>Appointment Information</h1>
+	<form action="/submit" method="post">
+			<label><strong>Name:</strong> <input type="text" name="name"></label>
+            <br><br>
+			<label><strong>Email Address:</strong> <input type="email" name="email"></label>
+            <br><br>
+			<label><strong>Select Service(s):</strong></label>
+			<br>
+			<div style="margin-left: 25px;">
+				<select name="servicesSelected" multiple>
+					<option value="Haircut">Haircut</option>
+					<option value="Shampoo and Condition">Shampoo and Condition</option>
+					<option value="Layers">Layers</option>
+					<option value="Coloring">Coloring</option>
+					<option value="Braiding">Braiding</option>
+				</select>
+			</div>
+			<br>
+			<label><strong>Select Date for Appointment: </strong><input type="date" id="date" name="date"></label>
+			<br>
+
+		<br>
+		<input type="submit" value="Submit Appointment" onclick= "return confirm('Is all entered information correct?')">
+		<input type="reset">
+	</form>
+
+	<!-- TODO maybe change the access to home to something else, maybe like a top banner similar to the footer for TerpStore -->
+    <hr>
+    <a href="/">HOME</a>
+</body>
+
+</html>

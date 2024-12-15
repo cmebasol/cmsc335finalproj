@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.3.0",
+    "punycode": "^2.3.1"
+  },
+  "name": "implementation",
+  "version": "1.0.0",
+  "main": "connectingToDB.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
